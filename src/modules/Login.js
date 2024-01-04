@@ -66,6 +66,7 @@ export default function Login () {
     })
     inputName.addEventListener('mouseover', function () {
         containerName.append(editName)
+        toogletheme()
     })
     inputName.addEventListener('mouseout', function() {
         if (!(document.activeElement === inputName)) {
@@ -74,6 +75,7 @@ export default function Login () {
     })
     inputName.addEventListener('focusin', function() {
         containerName.append(editName)
+        toogletheme()
     })
 
     const addTask = document.createElement('button')
