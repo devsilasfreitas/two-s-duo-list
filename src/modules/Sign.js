@@ -1,5 +1,4 @@
 import checkExistsName from "./checkExistsName.js"
-import toogleTheme from "./toogleTheme.js"
 
 export default function Sign () {
     const body = document.getElementById('body')
