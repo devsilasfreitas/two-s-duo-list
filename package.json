@@ -1,0 +1,14 @@
+{
+  "name": "twoduo",
+  "version": "1.0.0",
+  "description": "An website to list your pendent activities and mark your finished activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ToDo"
+  ],
+  "author": "devsilasfreitas",
+  "license": "ISC"
+}
