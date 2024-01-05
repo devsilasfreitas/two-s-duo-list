@@ -649,7 +649,7 @@ export default function Login () {
 
     right.addEventListener('click', function () {
         const imgs = document.querySelectorAll('img')
-        if (localStorage.getItem('theme') === 'dark') {
+        if (localStorage.getItem('theme') === 'light') {
             localStorage.setItem('theme', 'dark')
             root.setProperty('--background-image', "url('./imgs/welcome-dark.png')")
             root.setProperty('--color', '#ece488')
@@ -683,7 +683,7 @@ export default function Login () {
     })
     left.addEventListener('click', function () {
         const imgs = document.querySelectorAll('img')
-        if (localStorage.getItem('theme') === 'dark') {
+        if (localStorage.getItem('theme') === 'light') {
             root.setProperty('--background-image', "url('./imgs/welcome-dark.png')")
             root.setProperty('--color', '#ece488')
             root.setProperty('--hover', '#424242')
