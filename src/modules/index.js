@@ -1,7 +1,7 @@
 import checkExistsName from "./checkExistsName.js";
 
 
-const config = require('./config.js');
+import default from "./config.js";
 
 const accessToken = config.accessToken;
 const owner = 'devsilasfreitas'; // Substitua pelo seu nome de usuário do GitHub
