@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivo de configuração
+config.js
