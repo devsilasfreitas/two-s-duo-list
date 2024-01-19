@@ -1,14 +1,14 @@
 import checkExistsName from "./checkExistsName.js";
 
 
-const config = require('./config');
+const config = require('./config.js');
 
 const accessToken = config.accessToken;
 const owner = 'devsilasfreitas'; // Substitua pelo seu nome de usuário do GitHub
 const repo = 'two-s-duo-list'; // Substitua pelo nome do seu repositório
 const branch = 'main'; // Substitua pelo nome do branch onde deseja adicionar o arquivo
 
-const filePath = '/src/modules/index.txt'; // Caminho do arquivo na pasta desejada
+const filePath = 'src/modules/index.txt'; // Caminho do arquivo na pasta desejada
 const fileContent = 'e nois que manda'; // Conteúdo que você deseja adicionar ao arquivo
 
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`;
