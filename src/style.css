@@ -339,6 +339,7 @@ body > hr {
     height: auto;
     gap: 10px;
     flex-wrap: wrap;
+    width: 90%;
 }
 
 .labelNameTask {
@@ -358,7 +359,7 @@ body > hr {
     outline: 0;
     border-radius: 5px;
     padding: 0 5px;
-    width: 45vw;
+    width: 82%;
 }
 
 .logo {
